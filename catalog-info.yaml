@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: copy-ai-calling-agent
+  annotations:
+    github.com/project-slug: fernanda-iwd/copy-ai-calling-agent
+spec:
+  type: other
+  lifecycle: unknown
+  owner: bench
