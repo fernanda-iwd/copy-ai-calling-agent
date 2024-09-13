@@ -1,0 +1,6 @@
+.venv
+*.json
+!results.json
+!data.json
+.env
+.DS_Store

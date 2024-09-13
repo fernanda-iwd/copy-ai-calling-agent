@@ -1,0 +1,27 @@
+flowchart TB
+    %% Open https://mermaid.live/edit and paste this code in editor
+    A(Request to Queue Outbound Call) --> B[Greetings, read service and vehicle \n information. Confirm ability to service]
+    B --> C{Can Service Vehicle?}
+
+    %% outcome: appointment booked with driver prefered time slots
+    C -->|Yes| D[Inquire availability of first\nor second time slot]
+    D --> H{One of the time slots\ncan be confirmed?}
+    H --> |Yes| I[Thank them, terminate call]
+    H --> J(Log call results)
+    J --> K(Outcome:\nShop can fullfil service\nAppointment booked)
+
+    %% outcome: save service provider availability. appt not booked. notify driver of new availabilities
+    D --> |No| L[Negotiate appointment based on backup preferences\nIndicate that you will call back to confirm\nappointment after checking with the driver.]
+    L --> M(Log call results)
+    M --> N(Outcome:\nShop provided new avilable time slots\nAppointment not booked\nfollow up with Driver)
+
+
+    %% outcome: cant fullfil service
+    C -->|No| E[Thank them, terminate call]
+    E --> F(Log call results)
+    F --> G(Outcome:\nShop cannot fullfil service\nAppointment not booked)
+
+    %% styling
+    style G fill:blue,color:white
+    style K fill:blue,color:white
+    style N fill:blue,color:white

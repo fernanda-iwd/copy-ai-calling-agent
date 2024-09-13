@@ -1,0 +1,37 @@
+{
+  "TC001": {
+    "call_id": "d94f83dc-e880-4c93-ac47-046971c81814",
+    "passed": true,
+    "explanation": ""
+  },
+  "TC002": {
+    "call_id": "c8295166-8c0d-428a-9f63-8f6706fa7196",
+    "passed": true,
+    "explanation": ""
+  },
+  "TC003": {
+    "call_id": "ee92d500-2335-4670-ab82-0134600630f1",
+    "passed": true,
+    "explanation": ""
+  },
+  "TC004": {
+    "call_id": "f307c531-15e6-4b46-8df2-fc26d815d717",
+    "passed": true,
+    "explanation": ""
+  },
+  "TC005": {
+    "call_id": "204b04da-deba-4139-96c9-d159e7a7dd9b",
+    "passed": false,
+    "explanation": "Error code: 400 - {'error': {'message': \"The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766\", 'type': None, 'param': 'prompt', 'code': 'content_filter', 'status': 400, 'innererror': {'code': 'ResponsibleAIPolicyViolation', 'content_filter_result': {'hate': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': True, 'detected': True}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}}}"
+  },
+  "TC006": {
+    "call_id": "f311753f-7170-4705-8135-a0e7dd203a1b",
+    "passed": true,
+    "explanation": ""
+  },
+  "TC007": {
+    "call_id": "334531aa-8ba3-4d13-9294-094656c0ad77",
+    "passed": false,
+    "explanation": "Error code: 400 - {'error': {'message': \"The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766\", 'type': None, 'param': 'prompt', 'code': 'content_filter', 'status': 400, 'innererror': {'code': 'ResponsibleAIPolicyViolation', 'content_filter_result': {'hate': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': True, 'detected': True}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}}}"
+  }
+}

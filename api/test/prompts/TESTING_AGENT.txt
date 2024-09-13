@@ -1,0 +1,18 @@
+Using the information in the following prompt, we want to determine if an assistant has correctly called a repair shop and booked an appointment on behalf of a driver. 
+
+The following information is provided in the next prompt:
+- Driver's full name
+- Driver's phone number
+- Vehicle information
+- Type of service required
+- First preferred date/time range for the appointment
+- Second preferred date/time range for the appointment
+- A transcript of the call between the assistant and the repair shop
+- Expected behavior of the Agent in this test case.
+
+In the analysis, ensure that the assistant provided all required driver and vehicle information accurately to the repair shop.
+
+Based on the provided transcript and expected behavior, determine whether the test case passes. Respond with one of the following options:
+
+True [if the test passes]
+False [if the test fails, provide a brief explanation of why it failed on a new line]

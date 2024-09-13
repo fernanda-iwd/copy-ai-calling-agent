@@ -1,0 +1,15 @@
+{
+  "companyName": "Dead Mouse Fleet",
+  "driverFullName": "John Doe",
+  "driverPhoneNumber": "4165772462",
+  "supplierShopName": "Firestone",
+  "serviceName": "brake servicing",
+  "vehicleColor": "black",
+  "vehicleYear": "2024",
+  "vehicleMake": "Tesla",
+  "vehicleModel": "Model S",
+  "vehiclePlate": "BRN234",
+  "vehicleCustomization": "This vehicle has been upfitted and it weighs 2000 kilograms",
+  "firstTimeRange": "2024-08-19 9:00:00 - 12:00:00",
+  "secondTimeRange": "2024-08-20 14:00:00 - 17:00:00"
+}
